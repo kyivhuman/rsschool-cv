@@ -1,1 +1,0 @@
-https://github.com/kyivhuman/rsschool-cv
