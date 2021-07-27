@@ -11,7 +11,7 @@ Internship while studying at the university
 
 **Education**
 
-2014-2018y
+2014-2018yy
 
 *Junior Specialist*
 
