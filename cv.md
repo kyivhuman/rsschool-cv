@@ -6,6 +6,8 @@ technologies, create and develop beautiful and best websites.
 
 **Expirence**
   + __TriMob__
+  System administrator
+  
 Internship while studying at the university
 2018 february-april.
 
