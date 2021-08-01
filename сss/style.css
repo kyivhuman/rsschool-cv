@@ -1,0 +1,295 @@
+/* font-family: Montserrat, sans-serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: Montserrat, sans-serif;
+  width: 100%;
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  display: grid;
+  flex-direction: column;
+  grid-template-rows: 1fr auto;
+}
+/* Main start */
+.main {
+  display: flex;
+  width: 1280px;
+  height: 1200px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.8);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  flex-grow: 1;
+  
+}
+
+/* Main end */
+
+/* Aside start */
+.aside {
+  width: 370px;
+  background-color: #1E2939;
+  color: #fff;
+}
+
+.headers_h4_left {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  margin: 50px 0 0 0;
+}
+
+.left_aside {
+  margin-left : 40px;
+}
+
+.img {
+  margin: 30px 0 0 0;
+}
+
+.write_e {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 8px 0 0 0;
+}
+
+.write_in {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.contacts_mail {
+  font-size: 14px;
+  line-height: 24px;  
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.contacts_name {
+  font-size: 14px;
+  line-height: 24px; 
+  color: #fff;  
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.contacts_name, .contacts_ma {
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;  
+  opacity: 0.5;
+
+}
+
+.ul_list {
+  list-style: none;
+  padding: 0;
+  margin-right: 60px;
+}
+
+.tech_skills {
+  margin: 50px 0 0 0;
+}
+
+.tech_ul {
+  font-size: 14px;
+  line-height: 24px;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.li_mark {
+  color: #FB6D3A;
+}
+
+.span_aside_text {
+  color: #fff;
+}
+
+/* Aside end */
+
+/* Content start */
+.content {
+  font-family: Montserrat, sans-serif;
+  width: 910px;
+  padding-left: 86px;
+}
+
+/* section_name start */
+.section_name-jun {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 60px 0 0 0;
+}
+
+.section_name-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  margin: 20px 0 0 0;
+}
+
+.section_name-profile {
+  margin: 50px 0 0 0;
+}
+
+.heading_3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.section_name-text {
+  font-size: 14px;
+  line-height: 24px;
+  margin: 15px 0 0 0;
+  color: #595959;
+}
+/* section_name end */
+
+/* section Work start */
+.work_experience {
+  margin: 50px 0 0 0;
+}
+
+.heading_h5 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.work_admin {
+  margin: 15px 0 0 0; 
+}
+
+.work_internship {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.work_date {
+  margin: 10px 0 0 0;
+}
+
+.date {
+  color:#A8A8A8;
+  font-size: 13px;
+  line-height: 16px;
+  margin: 10px 0 0 0  ;
+}
+/* section Work end */
+
+/* Languages start */
+.languages {
+  margin: 50px 0 0 0;
+}   
+
+.languages_eng  {
+  font-size: 16px;
+  line-height: 20px;
+  color: #595959;
+  margin: 15px 0 0 0;
+}
+
+.languages_ru {
+  font-size: 16px;
+  line-height: 20px;
+  color: #595959;
+  margin: 5px 0 0 0;
+}
+/* Languages end */
+
+/* Courses start */
+.courses_h3 {
+  margin: 90px 0 0 0;
+}
+.courses_basics {
+  font-size: 16px;
+  line-height: 24px;
+  color: #595959;
+  margin: 15px 0 0 0;
+}
+
+.courses_coursera {
+  font-size: 16px;
+  line-height: 24px;
+  color: #595959;
+  margin: 5px 0 0 0;
+}
+/* Courses end*/
+
+
+/* Education start */
+.education {
+  margin: 90px 0 0 0;
+}
+
+.education_college{
+  font-weight: bold;
+  font-style: normal;
+  color: #FB6D3A;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 15px 0 0 0;
+}
+
+.education_specialty {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 10px 0 0 0;
+}
+
+.education_software{
+  color: #FB6D3A;
+}
+.education_junior {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 10px 0 0 0;
+}
+/* Education end */
+
+
+/* footer start */
+
+.footer_r {
+  display: flex;    
+  justify-content: space-between;
+  align-items: flex-end;   
+  margin-top: 150px;
+  margin-bottom: 30px; 
+ 
+}
+
+.date_footer {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #c9c9c9;
+}
+
+.div_footer_ {
+  margin-right: 30px;
+}
+/* footer end */
+/* Content end */
